@@ -6,41 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap-grid.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-3 order-xl-1">
-          <img src="images/logo.svg" alt="Logo du restaurant Sasa Lele." />
-        </div>
-        <div class="col-3 offset-6 col-xl-7 offset-xl-5">
-          <nav>
-            <a href="#concept">Our concept</a>
-            <a href="#menu">Menu of the week</a>
-            <a href="#reservation">Reservation</a>
-            <a href="#contact">Contact</a>
-          </nav>
-        </div>
-        <div class="col-12 col-xl-6 order-xl-2">
-          <h3>Our concept</h3>
-          <p class="text">
-            The Sasa Lele restaurant offers an interactive experience that
-            allows you to discover the history of Mexican culture through its
-            gastronomy and traditional dishes made by your own hands.
-          </p>
-        </div>
-        <div class="col-12 col-xl-6 offset-xl-5 order-xl-3">
+    <header>
+      <div class="navigation-desktop">
+        <div class="container">
           <div class="row">
-            <div class="col-12 col-xl-6">
-              <p class="cta-header cta-menu">Menu of the week</p>
-            </div>
-            <div class="col-12 col-xl-6">
-              <p class="cta-header cta-reservations">Reservations</p>
+            <div class="col-xl-7 offset-xl-5">
+              <nav>
+                <a href="#concept">Our concept</a>
+                <a href="#menu">Menu of the week</a>
+                <a href="#reservation">Reservation</a>
+                <a href="#contact">Contact</a>
+              </nav>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="logo">
+              <img src="images/logo.svg" alt="Logo du restaurant Sasa Lele." />
+            </div>
+          </div>
+          <div class="col-3 offset-6 order-xl-2">
+            <div class="navigation-mobile">
+              <img src="images/burger-menu.svg" alt="Burger menu" />
+            </div>
+          </div>
+          <div class="col-12 col-xl-6 order-xl-1">
+            <h3 id="concept">Our concept</h3>
+            <p class="text concept">
+              The Sasa Lele restaurant offers an interactive experience that
+              allows you to discover the history of Mexican culture through its
+              gastronomy and traditional dishes made by your own hands.
+            </p>
+          </div>
+          <div class="col-12 col-xl-6 offset-xl-5 order-xl-3">
+            <div class="row">
+              <div class="col-12 col-xl-6">
+                <div class="cta-header cta-menu">
+                  <a href="#menu">Menu of the week</a>
+                </div>
+              </div>
+              <div class="col-12 col-xl-6">
+                <div class="cta-header cta-reservations">
+                  <a href="#reservation">Reservations</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <div class="container">
       <div class="row">
         <div class="col-6 offset-3 col-xl-4 offset-xl-4 order-xl-5">
@@ -57,7 +82,7 @@
         </div>
         <div class="col-6 col-xl-4 order-xl-4">
           <img
-            src="images/people-laughing.jpg"
+            src="images/men-laughing.jpg"
             alt="People having fun while eating."
           />
         </div>
@@ -69,11 +94,22 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-">menu of the week</div>
+        <div class="col-12"><h2 id="menu">Menu of the week - 65$</h2></div>
       </div>
       <div class="row">
-        <div class="col-12 col-xl-4">description menu</div>
-        <div class="col-12 col-xl-7 offset-xl-1">image mole de pollo</div>
+        <div class="col-12 col-xl-4">
+          <p class="description">
+            This weeks menu is based on "el dia de muertos". A Mexican holiday
+            where families welcome back the souls of their deceased relatives
+            for a brief reunion that includes food, drink and celebration.
+          </p>
+        </div>
+        <div class="col-12 col-xl-7 offset-xl-1">
+          <img
+            src="images/mole-pollo.png"
+            alt="Mole de pollo on a brown plate."
+          />
+        </div>
         <div class="col-12 col-xl-5 offset-xl-2">text mole de pollo</div>
         <div class="col-12 col-xl-6">
           <div class="row">
