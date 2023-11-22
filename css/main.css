@@ -52,7 +52,7 @@ h3 {
   font-family: var(--titel);
   font-size: 30px;
   line-height: 31px;
-  letter-spacing: 1.2px;
+  letter-spacing: 2.1px;
 }
 
 a {
@@ -81,6 +81,9 @@ header {
   background-color: var(--dunkelbraun);
   padding: 10px 0 20px;
   margin-bottom: 77px;
+  float: top;
+  position: sticky;
+  top: 0;
 }
 
 nav {
@@ -148,6 +151,57 @@ header h3 {
 @media screen and (min-width: 1200px) {
   .cta-header {
     margin-bottom: 0;
+  }
+}
+
+.section-introduction {
+  background-color: var(--hellbraun);
+  color: var(--gelb);
+  text-align: center;
+  text-shadow: -2px 2px 0px #200605;
+  padding: 80px 15px 150px;
+}
+
+.section-introduction img {
+  border: 7px solid var(--dunkelbraun);
+}
+
+.image-culture {
+  border-radius: 60px 60px 0 0;
+  margin: 40px 0 50px;
+}
+
+.image-chef {
+  border-radius: 0 60px;
+  margin-bottom: 40px;
+}
+
+.image-experience {
+  border-radius: 60px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .section-introduction {
+    padding: 100px 150px 200px;
+  }
+
+  .section-introduction img {
+    border: 17px solid var(--dunkelbraun);
+  }
+
+  .image-culture {
+    border-radius: 150px 150px 0 0;
+    margin: 60px 0 60px;
+  }
+
+  .image-chef {
+    border-radius: 0 150px;
+    margin: 60px 0 0;
+  }
+
+  .image-experience {
+    border-radius: 150px 0;
+    margin: 60px 0 0;
   }
 }
 
