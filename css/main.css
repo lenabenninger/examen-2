@@ -87,8 +87,8 @@ a {
 header {
   padding: 67px 15px 150px;
   background-color: var(--dunkelbraun);
-  background-image: url(../images/pattern-header.svg),
-    url(../images/people-laughing.png);
+  background-image: url(../images/svg/pattern-header.svg),
+    url(../images/intro/people-laughing.png);
   background-repeat: repeat-x, no-repeat;
   background-position: bottom, 60%;
   background-size: 100%, cover;
@@ -179,16 +179,21 @@ header h3 {
   }
 }
 
+.section-introduction,
+.section-menu,
+.section-drinks {
+  background-size: 15%;
+}
+
 .section-introduction {
   background-color: var(--hellbraun);
   text-align: center;
   text-shadow: -2px 2px 0px #200605;
   padding: 80px 15px 150px;
-  background-image: url(../images/pattern-left-gelb.svg),
-    url(../images/pattern-right-gelb.svg);
+  background-image: url(../images/svg/pattern-left-dunkelbraun.svg),
+    url(../images/svg/pattern-right-dunkelbraun.svg);
   background-repeat: repeat-y;
   background-position: left, right;
-  background-size: 10%;
 }
 
 .section-introduction img {
@@ -238,11 +243,11 @@ header h3 {
 .section-menu {
   padding: 100px 15px 150px;
   background-color: var(--gelb);
-  background-image: url(../images/pattern-left-hellbraun.svg),
-    url(../images/pattern-right-hellbraun.svg);
+  background-image: url(../images/svg/pattern-left-hellbraun.svg),
+    url(../images/svg/pattern-right-hellbraun.svg);
   background-repeat: repeat-y;
   background-position: left, right;
-  background-size: 10%;
+  background-position-y: top;
 }
 
 .section-menu h2 {
@@ -286,6 +291,21 @@ header h3 {
   .pan-de-muerto-image {
     max-height: 95%;
   }
+}
+
+.section-drinks {
+  background-color: var(--hellbraun);
+  color: var(--gelb);
+  padding: 100px 15px 150px;
+  background-image: url(../images/svg/pattern-left-dunkelbraun.svg),
+    url(../images/svg/pattern-right-dunkelbraun.svg);
+  background-repeat: repeat-y;
+  background-position: left, right;
+}
+
+.section-drinks .description {
+  background-color: #200605;
+  box-shadow: -16px 16px 0px 0px var(--gelb);
 }
 
 /*
