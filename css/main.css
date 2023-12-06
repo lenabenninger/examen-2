@@ -93,7 +93,7 @@ a {
 header {
   padding: 67px 15px 150px;
   background-color: var(--dunkelbraun);
-  background-image: url(../images/svg/pattern-header.svg),
+  background-image: url(../images/svg/pattern-bottom.svg),
     url(../images/intro/people-laughing.png);
   background-repeat: repeat-x, no-repeat;
   background-position: bottom, 60%;
@@ -405,6 +405,70 @@ header h3 {
   .deco-cta-table-left,
   .deco-cta-table-right {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cta-book-table {
+    padding: 30px 90px;
+  }
+}
+
+footer {
+  padding: 100px 15px 150px;
+  background-color: var(--dunkelbraun);
+  background-image: url(../images/svg/pattern-bottom.svg);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: 100%;
+}
+
+.opening-hours,
+.location,
+.contact {
+  margin-bottom: 80px;
+}
+
+footer h3 {
+  color: var(--hellbraun);
+  margin-bottom: 35px;
+}
+
+footer .text {
+  color: var(--hellbraun);
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 1200px) {
+  footer {
+    background-size: 50%;
+    padding: 100px 150px 200px;
+  }
+
+  .infos-footer {
+    display: flex;
+  }
+
+  .social-media {
+    align-self: baseline;
+  }
+
+  .social-media img {
+    width: 45px;
+    margin: 0;
+  }
+
+  .opening-hours {
+    margin: 0;
+  }
+
+  .location,
+  .contact {
+    margin-bottom: 150px;
   }
 }
 
