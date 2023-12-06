@@ -441,6 +441,7 @@ footer .text {
 .social-media {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 @media screen and (min-width: 1200px) {
@@ -449,17 +450,9 @@ footer .text {
     padding: 100px 150px 200px;
   }
 
-  .infos-footer {
-    display: flex;
-  }
-
-  .social-media {
-    align-self: baseline;
-  }
-
   .social-media img {
     width: 45px;
-    margin: 0;
+    margin: 90px 0 0;
   }
 
   .opening-hours {
