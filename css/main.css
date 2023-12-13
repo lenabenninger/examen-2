@@ -191,6 +191,9 @@ ul {
 
 ul li:hover {
   transition: 0.3s;
+}
+
+ul li:hover {
   color: var(--dunkelbraun);
   font-size: 35px;
 }
@@ -236,7 +239,7 @@ nav a:hover {
 }
 
 header h3 {
-  text-shadow: -2px 2px 0px #c55c2c;
+  text-shadow: -2px 2px 0px var(--hellbraun);
   margin-bottom: 30px;
 }
 
@@ -306,7 +309,7 @@ header h3 {
 
 .section-introduction {
   text-align: center;
-  text-shadow: -2px 2px 0px #200605;
+  text-shadow: -2px 2px 0px var(--dunkelbraun);
   padding: 100px 15px 150px;
   background-color: var(--hellbraun);
   background-image: url(../images/svg/pattern-left-dunkelbraun.svg),
@@ -375,7 +378,7 @@ header h3 {
 
 .section-menu .description {
   background-color: var(--hellbraun);
-  box-shadow: -16px 16px 0px 0px #200605;
+  box-shadow: -16px 16px 0px 0px var(--dunkelbraun);
   margin-bottom: 120px;
 }
 
@@ -423,7 +426,7 @@ header h3 {
 }
 
 .section-drinks .description {
-  background-color: #200605;
+  background-color: var(--dunkelbraun);
   box-shadow: -16px 16px 0px 0px var(--gelb);
   margin-bottom: 65px;
 }
@@ -489,13 +492,13 @@ header h3 {
 
 .cta-book-table:active {
   margin: 6px 6px -6px -6px;
-  box-shadow: -10px 10px 0px 0px #200605;
+  box-shadow: -10px 10px 0px 0px var(--dunkelbraun);
 }
 
 .cta-book-table {
   padding: 30px 50px;
   text-align: center;
-  background-color: #c55c2c;
+  background-color: var(--hellbraun);
   border-radius: 45px 45px 0px 0px;
   box-shadow: -16px 16px 0px 0px var(--dunkelbraun);
   transition: 0.3s;
