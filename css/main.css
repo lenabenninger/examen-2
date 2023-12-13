@@ -64,7 +64,8 @@ h2 {
   }
 }
 
-h3 {
+h3,
+.navigation-burger {
   color: var(--gelb);
   font-family: var(--titel);
   font-size: 30px;
@@ -130,15 +131,28 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 50px;
-  color: var(--hellbraun);
   background: var(--gelb);
-}
-
-.navigation-burger {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s;
+}
+
+ul {
+  padding: 125px 15px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  list-style-type: none;
+  background-image: url(../images/svg/pattern-top.svg),
+    url(../images/svg/pattern-bottom.svg);
+  background-repeat: repeat-x, repeat-x;
+  background-position: top, bottom;
+  background-size: 100%, 100%;
+}
+
+.social-media-burger {
+  background-color: var(--hellbraun);
+  padding: 255px 15px 30px;
 }
 
 .navigation-burger.is-active {
