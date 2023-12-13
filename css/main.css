@@ -117,7 +117,6 @@ header {
   top: 70px;
   right: 52px;
   z-index: 1;
-  filter: drop-shadow(0 0 3px var(--dunkelbraun));
 }
 
 .burger-menu div {
